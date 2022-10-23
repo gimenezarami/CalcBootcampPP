@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+body {
+  background: #f6f5f7;
+  font-family: "Montserrat", sans-serif;
+  color: #3e363f;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  color: white;
+}
+button {
+  padding: 12px 30px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: ;
+  color: #3e363f;
+  letter-spacing: 1px;
+  border-radius: 90px;
+  border: none;
+}
+input {
+  background-color: aliceblue;
+}
+
+#contenedor {
+  background-color: #c4d7f2;
+  width: 800px;
+  height: 500px;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+#formulario {
+  background-color: #c4d7f2;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+#detalle {
+  /*como se calcula*/
+  background-color: #839073;
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+.calculadora {
+  background-color: #c4d7f2;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  overflow: hidden;
+}
+.pregunta {
+  /*como se calcula*/
+  background-color: #839073;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  overflow: hidden;
+}
